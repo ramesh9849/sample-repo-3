@@ -3,6 +3,8 @@ pipeline{
     stages{
       stage("pipeline"){
           steps{
+            git url: "https://github.com/ramesh9849/sample-repo-3.git", branch: "main"
+            sh "cat README.md"
               echo "Hello Mukesh"
           }
       }
