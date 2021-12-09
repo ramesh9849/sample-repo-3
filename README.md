@@ -1,7 +1,2 @@
-# sample-repo-3
-
-Welcome Ramesh
-
-Good evening
-
-Welcome
+# sample-repo
+My family is my life
