@@ -5,9 +5,7 @@ pipeline{
       stage("pipeline"){
           steps{
             script{
-            git url: "https://github.com/ramesh9849/sample-repo-3.git" , branch: "main"
-            }
-            sh "cat README.md"
+            archiveArtifacts artifacts: 'build/libs/**/*.jar', fingerprint: true
           }
       }
     }
